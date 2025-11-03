@@ -1,0 +1,25 @@
+﻿Title,Authors,Category,Link,My Takeaway,Rating,Status,Topic / Keywords,Venue,Year
+Revisit Self-Debugging with Self-Generated Tests for Code Generation,Xiancai Chen; Zhengwei Tao; Kechi Zhang; Changzhi Zhou; Xinyu Zhang; Wanli Gu; Yuanpeng He; Mengdi Zhang; Xunliang Cai; Haiyan Zhao; Zhi Jin,Method,https://aclanthology.org/2025.acl-long.881/,"Study of letting LLMs generate tests and use execution feedback to self-debug generated code.探讨让大模型自己生成测试样例、再利用执行反馈来修正代码的方法，从而提升模型的自我调试能力。
+",,To Read,"self-debugging, self-generated tests, code generation, runtime feedback",ACL 2025 (Long),2025
+Code-SPA: Style Preference Alignment to Large Language Models for Code Debugging,Tao Wen et al.,Method,https://aclanthology.org/2025.findings-acl.912/,"Aligns code style to formats LLMs prefer to improve debugging on noisy code.通过让代码风格更贴合 LLM 偏好，提升模型在噪声代码调试任务中的稳定性和正确率。
+",,To Read,"code debugging, style alignment, robustness",ACL 2025 (Findings),2025
+MLDebugging: Towards Benchmarking Code Debugging Across Multi‑Library Scenarios,Jinyang Huang; Xiachong Feng; Qiguang Chen; Hanjie Zhao; Zihui Cheng; Jiesong Bai; Jingxuan Zhou; Min Li; Libo Qin,Benchmark,https://aclanthology.org/2025.findings-acl.305.pdf,"Creates a benchmarking setup focusing on debugging across diverse library contexts.构建多库环境下的代码调试基准，用于系统评估不同模型在跨库代码错误修复中的表现。
+",,To Read,"benchmark, code debugging, multi-library",ACL 2025 (Findings),2025
+COAST: Enhancing the Code Debugging Ability of LLMs via ...,W. Yang et al.,Method,https://aclanthology.org/2025.findings-naacl.139.pdf,"Method to enhance LLMs’ debugging capability (details in paper).提出一种增强 LLM 调试能力的新框架，让模型能更有效地识别和修复代码错误。
+",,To Read,"code debugging, LLMs",NAACL 2025 (Findings),2025
+MGDebugger: Closing the Last Mile of Code Generation with Hierarchical Debugging,Yuling Shi; Songsong Wang; Chengcheng Wan; Xiaodong Gu,Method,https://openreview.net/forum?id=dwQIVcW1du,"提出 MGDebugger 框架，将代码按层次拆分，从底层语法到高层算法逐步定位并修复错误，大幅提高 LLM 代码生成的正确率。
+
+
+
+
+",⭐⭐⭐⭐（结构清晰，适合学习 LLM 调试思路）,To Read,"hierarchical debugging, code generation, LLM agents",ICLR 2025 (OpenReview),2025
+REDO: Execution‑Free Runtime Error Detection for Coding Agents,Shengwei Li et al.,System,https://openreview.net/forum?id=THkF3VWSNv,"Combines LLMs with static analysis to detect runtime errors without executing code.结合静态分析与语言模型，实现在不运行代码的情况下检测潜在运行时错误。
+",,To Read,"static analysis, runtime error detection, coding agents",ICLR 2025 (OpenReview),2025
+Improve Code Generation with Feedback,Z. Xu et al.,Method,https://openreview.net/pdf?id=CscKx97jBi,"Simulates manual debugging: locate errors via intermediate variable inspection and fix iteratively.通过模拟人类调试思路，利用变量反馈和执行结果让模型迭代修复生成代码。
+",,To Read,"self-debugging pipeline, execution feedback",ICLR 2025 (OpenReview),2025
+Otter: Generating Tests from Issues to Validate SWE Patches,,Benchmark / Tool,https://icml.cc/virtual/2025/poster/44767,"Generates tests directly from issue descriptions to validate future patches; supports TDD.从软件 issue 自动生成测试用例，用于验证补丁正确性，实现自动化测试驱动开发（TDD）。
+",,To Read,"test generation, software engineering, TDD",ICML 2025 (Poster),2025
+Automated Benchmark Generation for Repository‑Level Program Repair,,System,https://icml.cc/virtual/2025/poster/43922,"Automates creating realistic repo‑level environments to test patch correctness with human tests.自动创建包含真实项目环境的代码修复基准，方便测试模型在真实仓库场景下的补丁能力。
+",,To Read,"benchmark, repository‑level repair, testing",ICML 2025 (Poster),2025
+RepoST: Scalable Repository‑Level Coding Environment Construction with Sandbox Testing,,System / Dataset,https://icml.cc/virtual/2025/48167,"Builds scalable repo‑level environments using sandbox tests to enable feedback-driven training.利用沙箱测试自动构建可执行的代码环境，支持生成训练数据并进行调试反馈。
+",,To Read,"sandbox testing, execution feedback, dataset construction",ICML 2025 (Workshop: CODEML),2025
